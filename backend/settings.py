@@ -12,7 +12,7 @@ SECRET_KEY = "django-insecure-8u)kc@md+2$#e&z!3k7z#ej6-d@o8@+_n&+q(gzwi!r5^qkn7r
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["Jonsnow7.pythonanywhere.com","127.0.0.1"]
 
 
 # Application definition
@@ -111,6 +111,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173", ]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://harii10.github.io/data-visualization/"]
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
