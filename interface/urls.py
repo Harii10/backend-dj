@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import material_list, bmaterials_list, nested_list
-from .views import index
+from .views import material_list, bmaterials_list, nested_list, index
 
 urlpatterns = [
     path('', index),

@@ -7,6 +7,7 @@ from django.http import JsonResponse
 def index(request):
     return render(request, 'index.html')
 
+
 def material_list(request):
     materials = Materials.objects.all()
     return JsonResponse(serialize_interface(materials), safe=False)
